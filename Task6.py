@@ -19,7 +19,7 @@ print(" ".join(my_lst).lower())
 # Q4
 print('#'*10, 'Question 4', '#'*10)
 my_lst = [12, 3.8, "GSG", ["sKy", "zak"]]
-new_lst = my_lst[:]
+new_lst = list(my_lst)
 print(new_lst)
 print(id(new_lst))
 print(id(my_lst))
